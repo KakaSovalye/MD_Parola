@@ -1231,7 +1231,7 @@ public:
    * \param numDevices  number of devices connected. Default is 1 if not supplied.
    */
   MD_Parola(MD_MAX72XX::moduleType_t mod, SPIClass &spi, uint8_t csPin, uint8_t numDevices = 1):
-    _D(mod, spi, csPin, numDevices), _numMpdules(numDevices)
+    _D(mod, spi, csPin, numDevices), _numModules(numDevices)
   {}
 
   /**
